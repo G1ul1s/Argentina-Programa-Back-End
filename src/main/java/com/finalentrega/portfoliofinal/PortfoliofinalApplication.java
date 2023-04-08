@@ -10,9 +10,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class PortfoliofinalApplication {
 
 		public static void main(String[] args) {
-		SpringApplication.run(PortfoliofinalApplication.class, args);
-               
-   }
+		SpringApplication.run(PortfoliofinalApplication.class, args);           
+}
               
 //configurando el cors para la conexion con angular
    @Bean
@@ -26,5 +25,3 @@ public class PortfoliofinalApplication {
         };
     }
 }                
-
-

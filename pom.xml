@@ -10,6 +10,7 @@
     </parent>
    <groupId>com.finalentrega</groupId>
     <artifactId>portfoliofinal</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <name>portfoliofinal</name>
     <description>Demo project for Spring Boot</description>
     <properties>
