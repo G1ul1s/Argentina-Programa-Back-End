@@ -16,7 +16,7 @@ public class CExperiencia {
      @Autowired
     private SExperiencia expServ; 
 
-    @GetMapping ("/ver/Experiencia")
+    @GetMapping ("/ver/experiencia")
     @ResponseBody
     public List<Experiencia> verExperiencia (){
      return expServ.verExperiencia();

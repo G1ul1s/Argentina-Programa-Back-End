@@ -20,7 +20,7 @@ public class PortfoliofinalApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("https://argentina-programa-front-end.web.app","http://localhost:4200").allowedMethods("*").allowedHeaders("*");
+                registry.addMapping("/**").allowedOrigins("https://argentina-programa-front-75022.web.app/","http://localhost:4200").allowedMethods("*").allowedHeaders("*");
             }
         };
     }

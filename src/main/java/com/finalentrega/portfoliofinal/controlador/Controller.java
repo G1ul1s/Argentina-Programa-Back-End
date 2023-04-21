@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = { "https://argentina-programa-front-end.web.app"})
+@CrossOrigin(origins = { "https://argentina-programa-front-75022.web.app"})
 public class Controller {
     
     @Autowired
