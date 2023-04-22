@@ -11,6 +11,7 @@ com\finalentrega\portfoliofinal\repositorio\PersonaRepository.class
 com\finalentrega\portfoliofinal\entidad\HyS.class
 com\finalentrega\portfoliofinal\interfa\IExperienciaService.class
 com\finalentrega\portfoliofinal\entidad\Educacion.class
+com\finalentrega\portfoliofinal\CorsConfiguration.class
 com\finalentrega\portfoliofinal\entidad\Persona.class
 com\finalentrega\portfoliofinal\controlador\CExperiencia.class
 com\finalentrega\portfoliofinal\controlador\CEducacion.class
