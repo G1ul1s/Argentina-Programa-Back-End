@@ -36,7 +36,7 @@ public class Controller {
     private SHyS hysServ;
    
     //Login
-   @PostMapping("/iniciar-sesion")
+   @PostMapping("/login")
     public Boolean login (@RequestBody Credenciales cred){
     return persoServ.login(cred.getPassword(), cred.getEmail());
     }
