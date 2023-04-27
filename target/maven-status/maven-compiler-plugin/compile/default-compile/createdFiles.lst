@@ -15,7 +15,6 @@ com\finalentrega\portfoliofinal\CorsConfiguration.class
 com\finalentrega\portfoliofinal\entidad\Persona.class
 com\finalentrega\portfoliofinal\controlador\CExperiencia.class
 com\finalentrega\portfoliofinal\controlador\CEducacion.class
-com\finalentrega\portfoliofinal\PortfoliofinalApplication$1.class
 com\finalentrega\portfoliofinal\interfa\InterfacePersonaService.class
 com\finalentrega\portfoliofinal\servicio\PersonaService.class
 com\finalentrega\portfoliofinal\entidad\Experiencia.class
