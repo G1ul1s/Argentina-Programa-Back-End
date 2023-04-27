@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = {"https://frontend-giuli.web.app", "http://localhost:4200/iniciar-sesion"})
+@CrossOrigin(origins = {"https://frontend-giuli.web.app", "http://localhost:4200"})
 @RestController
 public class Controller {
     
@@ -34,7 +34,7 @@ public class Controller {
     private SHyS hysServ;
    
     //Login
-   @PostMapping("/login")
+   @PostMapping("/iniciar-sesion")
     public Boolean login (@RequestBody Credenciales cred){
     return persoServ.login(cred.getPassword(), cred.getEmail());
     }

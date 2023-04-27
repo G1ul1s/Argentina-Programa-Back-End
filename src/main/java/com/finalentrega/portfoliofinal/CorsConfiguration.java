@@ -10,7 +10,7 @@ public class CorsConfiguration implements WebMvcConfigurer {
   @Override
   public void addCorsMappings(CorsRegistry registry) {
     registry.addMapping("/**")
-      .allowedOrigins("https://frontend-giuli.web.app", "http://localhost:4200/iniciar-sesion")
+      .allowedOrigins("https://frontend-giuli.web.app", "http://localhost:4200")
       .allowedMethods("GET", "POST", "PUT", "DELETE")
       .allowedHeaders("*");
   }
