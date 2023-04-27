@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "https://frontend-giuli.web.app")
+@CrossOrigin(origins = {"https://frontend-giuli.web.app", "http://localhost:4200"})
 @RestController
 public class Controller {
     
