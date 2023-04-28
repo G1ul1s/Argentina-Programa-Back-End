@@ -12,8 +12,6 @@ import com.finalentrega.portfoliofinal.servicio.PersonaService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,8 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = {"https://a-p-giuli-front-end.web.app", "http://localhost:4200"})
-@RequestMapping ({"https://argentina-programa-back-end-springboot.onrender.com"})
+
 @RestController
 public class Controller {
     
@@ -36,11 +33,7 @@ public class Controller {
     private SExperiencia expServ;
     @Autowired
     private SHyS hysServ;
-   
-    @Bean
-public MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter() {
-    return new MappingJackson2HttpMessageConverter();
-}
+
 
     //Login
    @PostMapping("/login")
@@ -52,10 +45,12 @@ public MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter()
     public void agregarPersona (@RequestBody Persona pers){
        persoServ.crearPersona(pers);
     }
-    @GetMapping ("/detail/{id}")
+    
+    @GetMapping ("/ver/persona/{id}")
      public Persona buscarPersona(@PathVariable Long id) {
         return persoServ.buscarPersona(id);
     } 
+    
     @PutMapping("/update/persona")
     public void editarPersona (@RequestBody Persona per){
     persoServ.editarPersona(per);
