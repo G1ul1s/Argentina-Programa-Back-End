@@ -43,7 +43,7 @@ public MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter()
 }
 
     //Login
-   @PostMapping("/iniciar-sesion")
+   @PostMapping("/login")
     public Boolean login (@RequestBody Credenciales cred){
     return persoServ.login(cred.getPassword(), cred.getEmail());
     }
