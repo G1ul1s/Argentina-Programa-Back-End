@@ -1,6 +1,5 @@
 com\finalentrega\portfoliofinal\servicio\SExperiencia.class
 com\finalentrega\portfoliofinal\servicio\SEducacion.class
-com\finalentrega\portfoliofinal\CorsConfiguration$1.class
 com\finalentrega\portfoliofinal\repositorio\REducacion.class
 com\finalentrega\portfoliofinal\servicio\SHyS.class
 com\finalentrega\portfoliofinal\controlador\Controller.class
@@ -12,10 +11,10 @@ com\finalentrega\portfoliofinal\repositorio\PersonaRepository.class
 com\finalentrega\portfoliofinal\entidad\HyS.class
 com\finalentrega\portfoliofinal\interfa\IExperienciaService.class
 com\finalentrega\portfoliofinal\entidad\Educacion.class
-com\finalentrega\portfoliofinal\CorsConfiguration.class
 com\finalentrega\portfoliofinal\entidad\Persona.class
 com\finalentrega\portfoliofinal\controlador\CExperiencia.class
 com\finalentrega\portfoliofinal\controlador\CEducacion.class
+com\finalentrega\portfoliofinal\PortfoliofinalApplication$1.class
 com\finalentrega\portfoliofinal\interfa\InterfacePersonaService.class
 com\finalentrega\portfoliofinal\servicio\PersonaService.class
 com\finalentrega\portfoliofinal\entidad\Experiencia.class

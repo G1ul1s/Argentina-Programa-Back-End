@@ -11,6 +11,8 @@ import com.finalentrega.portfoliofinal.servicio.SEducacion;
 import com.finalentrega.portfoliofinal.servicio.PersonaService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,6 +37,11 @@ public class Controller {
     @Autowired
     private SHyS hysServ;
    
+    @Bean
+public MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter() {
+    return new MappingJackson2HttpMessageConverter();
+}
+
     //Login
    @PostMapping("/iniciar-sesion")
     public Boolean login (@RequestBody Credenciales cred){
