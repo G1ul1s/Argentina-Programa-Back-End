@@ -1,0 +1,8 @@
+services:
+- name: <Argentina-Programa-Back-End-Springboot>
+  dockerfile: Dockerfile
+  env:
+    JAVA_OPTS: "-Xms256m -Xmx512m"
+  healthCheck:
+    httpPath: /actuator/health
+    httpPort: 8080
