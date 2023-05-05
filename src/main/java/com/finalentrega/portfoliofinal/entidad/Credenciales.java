@@ -10,7 +10,7 @@ public class Credenciales {
     public Credenciales() {
     }
 
-    public Credenciales(String password, String email) {
+    public Credenciales(String email, String password) {
         this.email = email;
         this.password = password;
     }
