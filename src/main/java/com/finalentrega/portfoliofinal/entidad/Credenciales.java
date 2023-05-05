@@ -4,15 +4,15 @@ import lombok.Setter;
 
 @Getter @Setter
 public class Credenciales {
-    private String password;
     private String email;
-
+    private String password;
+    
     public Credenciales() {
     }
 
     public Credenciales(String password, String email) {
-        this.password = password;
         this.email = email;
+        this.password = password;
     }
         
 }

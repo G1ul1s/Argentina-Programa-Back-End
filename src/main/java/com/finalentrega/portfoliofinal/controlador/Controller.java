@@ -38,7 +38,7 @@ public class Controller {
     //Login
    @PostMapping("/login")
     public Boolean login (@RequestBody Credenciales cred){
-    return persoServ.login(cred.getPassword(), cred.getEmail());
+    return persoServ.login(cred.getEmail(), cred.getPassword());
     }
     //Persona
     @PostMapping ("/new/persona")
